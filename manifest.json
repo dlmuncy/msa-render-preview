@@ -1,0 +1,38 @@
+{
+  "name": "mysignagent",
+  "short_name": "mysignagent",
+  "description": "AI-powered digital signage content that's automatically generated and delivered to your inbox for every holiday and event.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f14",
+  "theme_color": "#0d9488",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://019c869b-f1bf-732d-a2ba-cf5584c13ff2.mochausercontent.com/MSA-Favicon_Small2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://019c869b-f1bf-732d-a2ba-cf5584c13ff2.mochausercontent.com/MSA-1_Smalla.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/dashboard",
+      "description": "View your content dashboard"
+    },
+    {
+      "name": "Content Packages",
+      "url": "/dashboard/packages",
+      "description": "Browse your content packages"
+    }
+  ]
+}
